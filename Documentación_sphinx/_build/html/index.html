@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Generador Codigo’s documentation! &mdash; documentación de Generador Codigo - V0</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> Generador Codigo
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to Generador Codigo’s documentation!</a></li>
+<li><a class="reference internal" href="#guardarcodigo">GuardarCodigo</a></li>
+<li><a class="reference internal" href="#generadordominioyqr">GeneradorDominioYQR</a></li>
+<li><a class="reference internal" href="#generadorcodigosdebarras">GeneradorCodigosDeBarras</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Generador Codigo</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Welcome to Generador Codigo’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-generador-codigo-s-documentation">
+<h1>Welcome to Generador Codigo’s documentation!<a class="headerlink" href="#welcome-to-generador-codigo-s-documentation" title="Permalink to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="guardarcodigo">
+<h1>GuardarCodigo<a class="headerlink" href="#guardarcodigo" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="GuardarCodigo">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">GuardarCodigo</span></span><a class="headerlink" href="#GuardarCodigo" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Clase base para guardar códigos generados como imágenes.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="GuardarCodigo.guardar_imagen">
+<span class="sig-name descname"><span class="pre">guardar_imagen</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">carpeta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extension</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GuardarCodigo.guardar_imagen" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Guarda una imagen en una carpeta específica con un nombre y extensión dados.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>img</strong> (<em>PIL.Image</em>) – La imagen a guardar.</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – El nombre del archivo de imagen.</p></li>
+<li><p><strong>carpeta</strong> (<em>str</em>) – La carpeta donde se guardará la imagen.</p></li>
+<li><p><strong>extension</strong> (<em>str</em>) – La extensión del archivo de imagen.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>OSError</strong> – Si hay un error al guardar la imagen.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="generadordominioyqr">
+<h1>GeneradorDominioYQR<a class="headerlink" href="#generadordominioyqr" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="GeneradorDominioYQR">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">GeneradorDominioYQR</span></span><a class="headerlink" href="#GeneradorDominioYQR" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Clase para generar dominios web a partir de nombres dados y códigos QR a partir de esos dominios.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="GeneradorDominioYQR.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nombre_sitio_web</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GeneradorDominioYQR.__init__" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Inicializa una instancia del generador de códigos QR.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>nombre_sitio_web</strong> (<em>str</em>) – El nombre del sitio web para el que se generará el dominio.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GeneradorDominioYQR.generar_dominio">
+<span class="sig-name descname"><span class="pre">generar_dominio</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GeneradorDominioYQR.generar_dominio" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Genera un URL de dominio a partir del nombre del sitio web.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>El URL de dominio generado.</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GeneradorDominioYQR.generar_qr">
+<span class="sig-name descname"><span class="pre">generar_qr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">carpeta_guardado</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'QRs'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extension_guardado</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'png'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tamano_cuadrado</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tamano_borde</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GeneradorDominioYQR.generar_qr" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Genera un código QR a partir del dominio y lo guarda como una imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>carpeta_guardado</strong> (<em>str</em>) – La carpeta donde se guardará la imagen del código QR.</p></li>
+<li><p><strong>extension_guardado</strong> (<em>str</em>) – La extensión del archivo de imagen.</p></li>
+<li><p><strong>tamano_cuadrado</strong> (<em>int</em>) – El número de los cuadros en el código QR.</p></li>
+<li><p><strong>tamano_borde</strong> (<em>int</em>) – El tamaño del borde del código QR.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Si se produce un error en la generación del código QR.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="generadorcodigosdebarras">
+<h1>GeneradorCodigosDeBarras<a class="headerlink" href="#generadorcodigosdebarras" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="GeneradorCodigosDeBarras">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">GeneradorCodigosDeBarras</span></span><a class="headerlink" href="#GeneradorCodigosDeBarras" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Clase para generar códigos de barras EAN-13.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="GeneradorCodigosDeBarras.generar_codigo_de_barras">
+<span class="sig-name descname"><span class="pre">generar_codigo_de_barras</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">producto</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">codigo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">carpeta_guardado</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'codigos_barras'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extension_guardado</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'png'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GeneradorCodigosDeBarras.generar_codigo_de_barras" title="Enlazar permanentemente con esta definición"></a></dt>
+<dd><p>Genera un código de barras EAN-13 y lo guarda como una imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>producto</strong> (<em>str</em>) – El nombre del producto asociado al código de barras.</p></li>
+<li><p><strong>codigo</strong> (<em>str</em>) – El código de barras de 12 dígitos o una cadena vacía para generar uno aleatorio.</p></li>
+<li><p><strong>carpeta_guardado</strong> (<em>str</em>) – La carpeta donde se guardará la imagen del código de barras.</p></li>
+<li><p><strong>extension_guardado</strong> (<em>str</em>) – La extensión del archivo de imagen.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>ValueError</strong> – Si el código de barras no tiene 12 dígitos.</p></li>
+<li><p><strong>ValueError</strong> – Si se produce un error en la generación del código de barras.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2023, Nahia &amp; Sara.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
