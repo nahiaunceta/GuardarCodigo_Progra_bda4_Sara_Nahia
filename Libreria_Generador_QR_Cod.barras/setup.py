@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Libreria_Generador_QR_Cod.barras',
+    name='Generador_Codigos_QR_Cod.barras',
     version='0.3',
     packages=find_packages(),
     install_requires=[
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'trabajo_grupal.py=Libreria_Generador_QR_Cod.barras.trabajo_grupal.py:main',
+            'trabajo_grupal.py=Generador_Codigos_QR_Cod.barras.barras.trabajo_grupal.py:main',
         ],
     },
     author='Sara & Nahia',
