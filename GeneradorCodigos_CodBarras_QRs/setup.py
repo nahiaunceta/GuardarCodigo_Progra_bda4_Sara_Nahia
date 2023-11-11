@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='GeneradorCodigos_CodBarras_QRs',
-    version='0.4.3',
+    version='0.5',
     license='MIT', 
     packages=find_packages(),
     install_requires=[
