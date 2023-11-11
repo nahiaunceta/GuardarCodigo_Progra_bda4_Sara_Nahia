@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='GeneradorCodigos_CodBarras_QRs',
-    version='0.5',
+    version='0.6',
     license='MIT', 
     packages=find_packages(),
     install_requires=[
@@ -32,8 +32,8 @@ setup(
             'Programming Language :: Python :: 3.4',
             'Programming Language :: Python :: 3.5',
             'Programming Language :: Python :: 3.6'
-    ]
-    package_data=[
+    ],
+    package_data={
         'Generador de codigos (QR, Cod. barras)': ['docs/_build/index.html']
-    ]
+    }
 )
