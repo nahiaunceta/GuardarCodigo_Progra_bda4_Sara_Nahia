@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Generador_Codigos_QR_Cod.barras',
-    version='0.3',
+    name='Generador_Codigos_QR_CodBarras',
+    version='0.4',
     packages=find_packages(),
     install_requires=[
         'qrcode',
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'trabajo_grupal.py=Generador_Codigos_QR_Cod.barras.barras.trabajo_grupal.py:main',
+            'trabajo_grupal.py=Generador_Codigos_QR_CodBarras.trabajo_grupal.py:main',
         ],
     },
     author='Sara & Nahia',
