@@ -1,6 +1,4 @@
-# GuardarCodigo_Progra_bda4_Sara_Nahia
-
-README: Explicación del Código
+# Explicación del Código
 
 ### Clase GuardarCodigo
 
