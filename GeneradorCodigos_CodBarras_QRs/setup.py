@@ -33,4 +33,7 @@ setup(
             'Programming Language :: Python :: 3.5',
             'Programming Language :: Python :: 3.6'
     ]
+    package_data=[
+        'Generador de codigos (QR, Cod. barras)': ['docs/_build/index.html']
+    ]
 )

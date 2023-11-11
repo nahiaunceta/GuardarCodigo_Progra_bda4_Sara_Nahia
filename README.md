@@ -1,5 +1,3 @@
-# Explicación del Código
-
 ### Clase GuardarCodigo
 
 La clase `GuardarCodigo` sirve como clase base para guardar códigos generados como imágenes. Incluye un método `guardar_imagen` para almacenar imágenes en una carpeta específica con un directorio, nombre y extensión dados.
