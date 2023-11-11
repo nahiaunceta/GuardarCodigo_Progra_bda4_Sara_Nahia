@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
 
 setup(
     name='GeneradorCodigos_CodBarras_QRs',
-    version='0.4.2',
+    version='0.4.3',
     license='MIT', 
     packages=find_packages(),
     install_requires=[
@@ -18,7 +20,7 @@ setup(
     author='Sara & Nahia',
     author_email='sara.crego@alumni.mondragon.edu',
     description='Libreria diseñada para la creación de QRs para tiendas con páginas web, especialmente eCommerce, donde además tiene la posibilidad de generar códigos de barras para cada uno de los distintos productos que están a la venta en la tienda.',
-    long_description=open('../../GuardarCodigo_Progra_bda4_Sara_Nahia/README.md').read(),
+    long_description=open('../../GuardarCodigo_Progra_bda4_Sara_Nahia/README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/nahiaunceta/GuardarCodigo_Progra_bda4_Sara_Nahia.git',
     classifiers=[
