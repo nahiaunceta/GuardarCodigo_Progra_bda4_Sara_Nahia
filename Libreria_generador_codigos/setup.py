@@ -15,7 +15,7 @@ setup(
         ],
     },
     author='Sara & Nahia',
-    author_email='sara.crego@alumni.mondragon.com',
+    author_email='sara.crego@alumni.mondragon.edu',
     description='Descripción de tu proyecto',
     url='https://github.com/nahiaunceta/GuardarCodigo_Progra_bda4_Sara_Nahia.git',
 )
